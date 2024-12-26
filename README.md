@@ -30,7 +30,7 @@ Installation Instructions
 
 Clone the repository:
 
-git clone https://github.com/your-username/hospital-management-system.git
+git clone [https://github.com/your-username/hospital-management-system.git](https://github.com/i-Prajwalsapat/Hospital-Managment-System/tree/master)
 
 Navigate to the project directory:
 
