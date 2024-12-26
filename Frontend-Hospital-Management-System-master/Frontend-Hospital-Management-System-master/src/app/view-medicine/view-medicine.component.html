@@ -1,0 +1,22 @@
+<table class="table table-striped">
+
+    <thead class="table-header">
+        <tr>
+            <th>Id</th>
+            <th>Drug Name</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+  <tbody>
+    <tr *ngFor="let medicine of medicines">
+
+        <td>{{medicine.id}}</td>
+        <td>{{medicine.drugName}}</td>
+
+        <td>{{medicine.stock}}</td>
+
+
+    </tr>
+  </tbody>
+
+</table>
