@@ -32,19 +32,6 @@ The Hospital Management System is a software solution designed to streamline hos
 2. Navigate to the desired module (e.g., Patients, Doctors, Appointments).
 3. Perform CRUD operations based on user roles and permissions.
 
-## Project Structure
-Hospital-Management-System/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com.hospital/
-│   │   │       ├── controller/
-│   │   │       ├── model/
-│   │   │       ├── repository/
-│   │   ├── resources/
-│   │   │   ├── templates/
-│   │   │   ├── static/
-
 ## Contact
 For any queries or support, please feel free to reach out:
 
