@@ -1,84 +1,53 @@
-Hospital Management System
+**Hospital Management System** 
 
-Project Overview
+## Project Overview
+The Hospital Management System is a software solution designed to streamline hospital operations. It includes modules for:
+- **Patient Management**: Add, update, and delete patient records.
+- **Doctor Management**: Maintain doctor profiles and specialties.
+- **Appointment Scheduling**: Schedule and manage patient appointments.
+- **Billing System**: Generate and manage bills for hospital services.
+- **User Roles**: Role-based access for administrators, doctors, and receptionists.
 
-The Hospital Management System is a software solution designed to streamline hospital operations. It includes modules for patient management, appointment scheduling and doctor management ensuring efficient and user-friendly workflows.
+## Features
+- **Patient Management**: CRUD operations on patient records.
+- **Doctor Management**: Manage doctor profiles and specialties.
+- **Appointment Scheduling**: Book and manage patient appointments.
+- **Billing System**: Create and manage invoices for services.
+- **Role-Based Access Control**: User roles for administrators, doctors, and receptionists.
 
-Features
+## Technologies Used
+- **Backend**: Java (Spring Boot framework)
+- **Frontend**: HTML, CSS, Angular
+- **Database**: MySQL
+- **Version Control**: Git and GitHub
 
-Patient Management: Add, update, and delete patient records.
+## Installation Instructions
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/hospital-management-system.git](https://github.com/i-Prajwalsapat/Hospital-Managment-System)
+2. Access the application at [http://localhost:8080](http://localhost:8080).
 
-Doctor Management: Maintain doctor profiles and specialties.
+## Usage Instructions
+1. Log in using the admin account.
+2. Navigate to the desired module (e.g., Patients, Doctors, Appointments).
+3. Perform CRUD operations based on user roles and permissions.
 
-Appointment Scheduling: Schedule and manage patient appointments.
-
-Billing System: Generate and manage bills for hospital services.
-
-User Roles: Role-based access for administrators, doctors, and receptionists.
-
-Technologies Used
-
-Backend: Java (Spring Boot framework)
-
-Frontend: HTML, CSS, JavaScript (or React/Angular, if applicable)
-
-Database: MySQL
-
-Version Control: Git and GitHub
-
-Installation Instructions
-
-Clone the repository:
-
-git clone [https://github.com/your-username/hospital-management-system.git](https://github.com/i-Prajwalsapat/Hospital-Managment-System/tree/master)
-
-Navigate to the project directory:
-
-cd hospital-management-system
-
-Set up the database:
-
-Create a MySQL database named hospital_db.
-
-Run the provided SQL script (hospital_db.sql) to create tables.
-
-Configure the application:
-
-Update database credentials in the application.properties file.
-
-Build and run the application:
-
-mvn spring-boot:run
-
-Access the application at http://localhost:8080.
-
-Usage Instructions
-
-Log in using the admin account.
-
-Navigate to the desired module (e.g., Patients, Doctors, Appointments).
-
-Perform CRUD operations based on user roles and permissions.
-
-Project Structure
-
+## Project Structure
 Hospital-Management-System/
-|— src/
-   |— main/
-       |— java/
-           |— com.hospital/
-               |— controller/
-               |— model/
-               |— repository/
-       |— resources/
-           |— templates/
-           |— static/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com.hospital/
+│   │   │       ├── controller/
+│   │   │       ├── model/
+│   │   │       ├── repository/
+│   │   ├── resources/
+│   │   │   ├── templates/
+│   │   │   ├── static/
 
-Contact
+## Contact
+For any queries or support, please feel free to reach out:
 
-For any queries or support, please contact:
-
-Name: Prajwal Sapat
-
-Email: prajwalsapat19@gmail.com
-
+- **Name:** Prajwal Sapat  
+- **Email:** [prajwalsapat19@gmail.com](mailto:prajwalsapat19@gmail.com)
+```
