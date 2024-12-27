@@ -1,5 +1,3 @@
-**Hospital Management System** 
-
 ## Project Overview
 The Hospital Management System is a software solution designed to streamline hospital operations. It includes modules for:
 - **Patient Management**: Add, update, and delete patient records.
